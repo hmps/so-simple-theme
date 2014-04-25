@@ -1,15 +1,15 @@
 title:            The ProspectEye development blog
-description:      Code coffee and champange.
+description:      Leading the way.
 logo:             site-logo.png
 disqus_shortname:
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://hmps.github.io/test-jekyll
+#url:              http://hmps.github.io/test-jekyll
 
 # Owner/author information
 owner:
   name:           ProspectEye
-  avatar:         bio-photo.jpg
+  avatar:         fields.jpg
   email:          dev@prospecteye.com
   # Social networking links used in footer. Update and remove as you like.
   twitter: prospecteye
@@ -32,6 +32,14 @@ authors:
     web: http://prospecteye..com
     twitter: hmps_
     github: hmps
+  helk:
+    name: Andreas Helgegren
+    display_name: Andreas
+    gravatar:
+    email: andreas.helgegren@prospecteye.com
+    web: http://prospecteye..com
+    twitter:
+    github:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
