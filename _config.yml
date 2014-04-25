@@ -1,45 +1,54 @@
-title:            Site Title
-description:      Describe your website here.
+title:            The ProspectEye development blog
+description:      Code coffee and champange.
 logo:             site-logo.png
-disqus_shortname: 
+disqus_shortname:
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
 url:              http://localhost:4000
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           ProspectEye
   avatar:         bio-photo.jpg
-  email:          you@email.com
+  email:          dev@prospecteye.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
-  stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
+  twitter: prospecteye
+  facebook:
+  github:
+  stackexchange:
+  linkedin:
+  instagram:
+  flickr:
+  tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus:
+
+authors:
+  hmps:
+    name: Hampus Persson
+    display_name: Hampus
+    gravatar: 19f9418be6d7ad8e91c161cb59ead861
+    email: hampus.persson@prospecteye.com
+    web: http://prospecteye..com
+    twitter: hmps_
+    github: hmps
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics:
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about/
   - title: Articles
-    url: /articles/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Made Mistakes
-    url: http://mademistakes.com
+    url: /
+  - title: ProspectEye
+    url: http://www.prospecteye.com
+    external: true
+  - title: Login to the app
+    url: http://www.prospecteye.com/login
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -59,7 +68,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
